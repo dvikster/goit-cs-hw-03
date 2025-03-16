@@ -4,7 +4,7 @@ from faker import Faker
 def seed_database():
     # Підключення до PostgreSQL
     conn = psycopg2.connect(
-        dbname="postgres_dbname", 
+        dbname="postgres_db", 
         user="postgres_user", 
         password="postgres_password", 
         host="localhost"
