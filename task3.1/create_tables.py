@@ -3,9 +3,9 @@ import psycopg2
 def create_tables():
     # Підключення до PostgreSQL
     conn = psycopg2.connect(
-        dbname="your_dbname", 
-        user="your_user", 
-        password="your_password", 
+        dbname="postgres_db", 
+        user="postgres_user", 
+        password="postgres_password", 
         host="localhost"
     )
     cur = conn.cursor()
